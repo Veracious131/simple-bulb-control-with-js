@@ -6,18 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <img src="images/pic_bulboff.gif" alt="" id="bulb" >
-    <button onclick="Lighton()">Turn on the light</button>
+    <img src="images/pic_bulboff.gif" alt="" id="bulb" ><br>
+    <button onclick="Lighton()">Turn on the light</button> <br>
     <button onclick="offLight()">Turn off the light</button>
+    <!-- <div ><h2 id="msg" onclick="change()">I</h2></div> -->
 
     <script>
         function Lighton(){
-            console.log(bulb.src ='images/pic_bulbon.gif')    
+            (bulb.src ='images/pic_bulbon.gif')    
         }
         function offLight(){
-            console.log(bulb.src ='images/pic_bulboff.gif')
+            (bulb.src ='images/pic_bulboff.gif')
             
         }
+        // function change(){
+        //     console.log(msg.innerHTML)
+        //     msg.innerHTML=msg.src ='images/pic_bulbon.gif'
+        // }
     </script>
 </body>
 </html>
